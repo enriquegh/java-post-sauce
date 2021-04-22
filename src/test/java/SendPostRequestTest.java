@@ -13,10 +13,10 @@ public class SendPostRequestTest {
     @Test
     public void postTest() {
 
-        System.setProperty("http.proxyHost", "localhost");
-        System.setProperty("https.proxyHost", "localhost");
-        System.setProperty("http.proxyPort", "8889");
-        System.setProperty("https.proxyPort", "8889");
+//        System.setProperty("http.proxyHost", "localhost");
+//        System.setProperty("https.proxyHost", "localhost");
+//        System.setProperty("http.proxyPort", "8889");
+//        System.setProperty("https.proxyPort", "8889");
 
         String SAUCE_USERNAME = System.getenv("SAUCE_USERNAME");
         String SAUCE_ACCESS_KEY = System.getenv("SAUCE_ACCESS_KEY");
